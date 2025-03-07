@@ -7,25 +7,29 @@
 
 ---
 
+![Animated Divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+
 ### 🎯 About Me
-- 🔭 I’m currently working on **Cloud-Native Applications**
-- 🌱 Learning **Kubernetes & Advanced DevOps Practices**
-- 👯 Looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **React, Python, or Cloud Architecture**
-- ⚡ Fun fact: **I love 3D modeling & game development!**
+<img align="right" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="150">
+
+- 🔭 Currently architecting **Cloud-Native Solutions**
+- 🌱 Mastering **Kubernetes & Advanced DevOps**
+- 👯 Seeking **Open Source Collaborations**
+- 💬 Let's discuss **Microservices & Serverless**
+- ⚡ Fun fact: **I create 3D game assets!** 🎮
 
 ---
 
 ### 📬 Connect With Me
-<p align="left">
+<p align="center">
   <a href="mailto:atulupadhyay192@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> 
   </a>
   <a href="https://www.linkedin.com/in/atulupadhyay192/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" width="40">
   </a>
   <a href="https://leetcode.com/atul_upadhyay/">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode">
+    <img src="https://media.giphy.com/media/3oKIPk5XyCQ4MURVPy/giphy.gif" width="40">
   </a>
 </p>
 
@@ -33,38 +37,39 @@
 
 ### 🛠️ Tech Stack
 #### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+<p>
+  <img src="https://media.giphy.com/media/XAW1Z5xQUBf7O6Ntow/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/rsUGLKwgSvSxmq1VrZ/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="50">
+</p>
 
 #### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+<p>
+  <img src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mTP/giphy.gif" width="50">
+</p>
 
-#### 🎨 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-#### 🗃️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+#### 🌐 Frontend
+<p>
+  <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" width="50">
+</p>
 
 ---
 
 ### 📈 GitHub Analytics
-| ![Atul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=atul-upadhyay-7&show_icons=true&theme=radical&hide_border=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=atul-upadhyay-7&layout=compact&theme=radical&hide_border=true) |
-| ------------- | ------------- |
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=atul-upadhyay-7&theme=react-dark&hide_border=true&area=true">
+</div>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=atul-upadhyay-7&theme=radical&hide_border=true)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=atul-upadhyay-7&show_icons=true&theme=radical&hide_border=true">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atul-upadhyay-7&layout=compact&theme=radical&hide_border=true">
+</div>
 
----
-
-### 🏆 Achievements
-[![trophy](https://github-profile-trophy.vercel.app/?username=atul-upadhyay-7&theme=onedark&row=1&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+![Snake Animation](https://github.com/atul-upadhyay-7/atul-upadhyay-7/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
@@ -78,6 +83,8 @@
 ---
 
 <p align="center"> 
+  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
+  <br>
   Visitor count<br>
-  <img src="https://profile-counter.glitch.me/atul-upadhyay-7/count.svg" />
+  <img src="https://profile-counter.glitch.me/atul-upadhyay-7/count.svg">
 </p>

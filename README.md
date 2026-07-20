@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ─────────────────────────────────────────────────────────────────────
-     CONTRIBUTION HEATMAP  –  auto-refreshed daily via GitHub Actions
+     CONTRIBUTION HEATMAP  –  self-hosted, auto-refreshed daily
      ───────────────────────────────────────────────────────────────────── -->
 
 <h3><code>atul@github ~ $ ./contributions.sh</code></h3>
@@ -11,21 +11,12 @@
 <br><br>
 
 <!-- ─────────────────────────────────────────────────────────────────────
-     WHOAMI  ·  stats + neofetch info card
+     WHOAMI  ·  neofetch info card
      ───────────────────────────────────────────────────────────────────── -->
 
 <h3><code>atul@github ~ $ whoami</code></h3>
 
-<table>
-  <tr>
-    <td valign="top" width="360">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=atul-upadhyay-7&theme=github-dark-blue&hide_border=true&background=0D1117&ring=39d353&fire=58a6ff&currStreakLabel=39d353" width="350" alt="GitHub streak stats"/>
-    </td>
-    <td valign="top" width="500">
-      <img src="./info-card.svg" width="490" alt="Neofetch info card" />
-    </td>
-  </tr>
-</table>
+<img src="./info-card.svg" width="860" alt="Neofetch info card" />
 
 <br>
 
@@ -83,15 +74,12 @@
 <br>
 
 <!-- ─────────────────────────────────────────────────────────────────────
-     GITHUB STATS
+     STATS CARD  –  self-hosted, generated from GitHub public API
      ───────────────────────────────────────────────────────────────────── -->
 
 <h3><code>atul@github ~ $ git stats</code></h3>
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=atul-upadhyay-7&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=58a6ff&text_color=e6edf3&rank_icon=github" width="420" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atul-upadhyay-7&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=e6edf3&langs_count=8" width="350" alt="Top languages"/>
-</p>
+<img src="./stats-card.svg" width="860" alt="GitHub stats overview" />
 
 <br>
 
@@ -103,6 +91,6 @@
 
 <br><br>
 
-<sub>🤖 Heatmap auto-refreshes daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> · self-hosted Python scripts · no third-party token required</sub>
+<sub>🤖 All SVGs are self-hosted and auto-refresh daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> — no third-party servers, no token required</sub>
 
 </div>

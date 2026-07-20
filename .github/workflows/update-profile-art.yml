@@ -2,8 +2,8 @@ name: Update profile art
 
 "on":
   schedule:
-    - cron: "17 6 * * *"   # ~06:17 UTC daily – after GitHub's own cron window
-  workflow_dispatch: {}    # run manually from Actions tab
+    - cron: "17 6 * * *"   # ~06:17 UTC daily
+  workflow_dispatch: {}
   push:
     branches: [main]
 
@@ -31,11 +31,14 @@ jobs:
       - name: Render contribution heatmap SVG
         run: python scripts/render_heatmap_svg.py
 
-      - name: Regenerate info card
+      - name: Regenerate neofetch info card
         run: python scripts/make_info_card.py
 
-      - name: Commit & push updated assets
+      - name: Regenerate self-hosted stats card
+        run: python scripts/make_stats_card.py
+
+      - name: Commit and push updated assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg info-card.svg"
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg info-card.svg stats-card.svg"

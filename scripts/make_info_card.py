@@ -8,6 +8,12 @@ Output: info-card.svg
 """
 
 import os
+import html as _html
+
+
+def esc(s: str) -> str:
+    """Escape XML special characters for safe embedding in SVG text nodes."""
+    return _html.escape(str(s), quote=False)
 
 # ── Personalise this ─────────────────────────────────────────────────────────
 TITLE   = "atul-upadhyay-7@github"
@@ -16,11 +22,11 @@ DIVIDER = "─" * 22
 DATA = [
     ("OS",        "Arch Linux (Cloud-Native Edition)"),
     ("Role",      "Full-Stack Developer · Cloud Engineer"),
-    ("Now",       "Building Cloud-Native & DevOps solutions"),
+    ("Now",       "Building Cloud-Native and DevOps solutions"),
     ("Prev",      "KubeEdge Contributor · Open-Source Dev"),
     ("Stack",     "Go · Python · TypeScript · React · K8s"),
     ("Infra",     "AWS · GCP · Docker · Terraform · CI/CD"),
-    ("Interests", "Microservices · Serverless · 3D Gaming 🎮"),
+    ("Interests", "Microservices · Serverless · 3D Gaming"),
     ("Contact",   "atulupadhyay192@gmail.com"),
     ("LinkedIn",  "linkedin.com/in/atulupadhyay192"),
     ("LeetCode",  "leetcode.com/atul_upadhyay"),
@@ -58,8 +64,8 @@ def row_svg(index: int, key: str, value: str, y: int, delay: float) -> str:
     return (
         f'  <g opacity="0">\n'
         f'    {smil}\n'
-        f'    <text x="{kx}" y="{y}" class="key">{key}</text>\n'
-        f'    <text x="{vx}" y="{y}" class="val">{value}</text>\n'
+        f'    <text x="{kx}" y="{y}" class="key">{esc(key)}</text>\n'
+        f'    <text x="{vx}" y="{y}" class="val">{esc(value)}</text>\n'
         f'  </g>\n'
     )
 
@@ -97,7 +103,7 @@ def build_svg() -> str:
         t_smil = '<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0s" fill="freeze"/>'
         t_opacity = 'opacity="0"'
     lines.append(
-        f'  <text x="{PADDING_X}" y="{ty}" class="title" {t_opacity}>{TITLE}{"" if STATIC else t_smil}</text>\n'
+        f'  <text x="{PADDING_X}" y="{ty}" class="title" {t_opacity}>{esc(TITLE)}{"" if STATIC else t_smil}</text>\n'
     )
 
     # Divider
@@ -109,7 +115,7 @@ def build_svg() -> str:
         d_smil = '<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/>'
         d_opacity = 'opacity="0"'
     lines.append(
-        f'  <text x="{PADDING_X}" y="{dy}" class="div" {d_opacity}>{DIVIDER}{"" if STATIC else d_smil}</text>\n'
+        f'  <text x="{PADDING_X}" y="{dy}" class="div" {d_opacity}>{esc(DIVIDER)}{"" if STATIC else d_smil}</text>\n'
     )
 
     # Data rows

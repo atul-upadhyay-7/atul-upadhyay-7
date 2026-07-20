@@ -24,7 +24,7 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.29s" fill="freeze"/>
     <text x="16" y="100" class="key">Now</text>
-    <text x="146" y="100" class="val">Building Cloud-Native & DevOps solutions</text>
+    <text x="146" y="100" class="val">Building Cloud-Native and DevOps solutions</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.36s" fill="freeze"/>
@@ -44,7 +44,7 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.57s" fill="freeze"/>
     <text x="16" y="172" class="key">Interests</text>
-    <text x="146" y="172" class="val">Microservices · Serverless · 3D Gaming 🎮</text>
+    <text x="146" y="172" class="val">Microservices · Serverless · 3D Gaming</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.64s" fill="freeze"/>

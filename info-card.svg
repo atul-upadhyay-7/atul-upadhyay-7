@@ -2,56 +2,62 @@
   <rect width="100%" height="100%" fill="#0d1117" rx="8" stroke="#30363d" stroke-width="1"/>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-    .root { font-family: 'JetBrains Mono', monospace; font-size: 11px; }
-    .title { font-size: 13px; font-weight: 700; fill: #39d353; }
+    .root  { font-family: ui-monospace,'Cascadia Code','Source Code Pro',
+              Menlo,Consolas,'DejaVu Sans Mono',monospace; font-size: 11px; }
+    .title { font-size: 13px; font-weight: bold; fill: #39d353; }
     .div   { fill: #30363d; font-size: 10px; }
-    .key   { fill: #58a6ff; font-weight: 700; }
+    .key   { fill: #58a6ff; font-weight: bold; }
     .val   { fill: #e6edf3; }
-    @keyframes fadeSlide {
-      0%   { opacity: 0; transform: translateX(-6px); }
-      100% { opacity: 1; transform: translateX(0); }
-    }
   </style>
-  <text x="16" y="28" class="title" style="animation: fadeSlide 0.4s ease both 0s">atul-upadhyay-7@github</text>
-  <text x="16" y="46" class="div" style="animation: fadeSlide 0.4s ease both 0.1s">──────────────────────</text>
-  <g style="animation: fadeSlide 0.4s ease both 0.15s">
+  <text x="16" y="28" class="title" opacity="0">atul-upadhyay-7@github<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0s" fill="freeze"/></text>
+  <text x="16" y="46" class="div" opacity="0">──────────────────────<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/></text>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.15s" fill="freeze"/>
     <text x="16" y="64" class="key">OS</text>
     <text x="146" y="64" class="val">Arch Linux (Cloud-Native Edition)</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.22s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.22s" fill="freeze"/>
     <text x="16" y="82" class="key">Role</text>
     <text x="146" y="82" class="val">Full-Stack Developer · Cloud Engineer</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.29s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.29s" fill="freeze"/>
     <text x="16" y="100" class="key">Now</text>
     <text x="146" y="100" class="val">Building Cloud-Native & DevOps solutions</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.36s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.36s" fill="freeze"/>
     <text x="16" y="118" class="key">Prev</text>
     <text x="146" y="118" class="val">KubeEdge Contributor · Open-Source Dev</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.43s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.43s" fill="freeze"/>
     <text x="16" y="136" class="key">Stack</text>
     <text x="146" y="136" class="val">Go · Python · TypeScript · React · K8s</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.50s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.50s" fill="freeze"/>
     <text x="16" y="154" class="key">Infra</text>
     <text x="146" y="154" class="val">AWS · GCP · Docker · Terraform · CI/CD</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.57s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.57s" fill="freeze"/>
     <text x="16" y="172" class="key">Interests</text>
     <text x="146" y="172" class="val">Microservices · Serverless · 3D Gaming 🎮</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.64s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.64s" fill="freeze"/>
     <text x="16" y="190" class="key">Contact</text>
     <text x="146" y="190" class="val">atulupadhyay192@gmail.com</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.71s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.71s" fill="freeze"/>
     <text x="16" y="208" class="key">LinkedIn</text>
     <text x="146" y="208" class="val">linkedin.com/in/atulupadhyay192</text>
   </g>
-  <g style="animation: fadeSlide 0.4s ease both 0.78s">
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.78s" fill="freeze"/>
     <text x="16" y="226" class="key">LeetCode</text>
     <text x="146" y="226" class="val">leetcode.com/atul_upadhyay</text>
   </g>

@@ -44,15 +44,20 @@ STATIC = os.environ.get("STATIC", "0") == "1"   # set STATIC=1 for frozen frame
 
 
 def row_svg(index: int, key: str, value: str, y: int, delay: float) -> str:
-    anim = (
-        ""
-        if STATIC
-        else f'style="animation: fadeSlide 0.4s ease both {delay:.2f}s"'
-    )
     kx = PADDING_X
     vx = PADDING_X + 130
+    if STATIC:
+        return (
+            f'  <g>\n'
+            f'    <text x="{kx}" y="{y}" class="key">{key}</text>\n'
+            f'    <text x="{vx}" y="{y}" class="val">{value}</text>\n'
+            f'  </g>\n'
+        )
+    smil = (f'<animate attributeName="opacity" from="0" to="1" '
+            f'dur="0.4s" begin="{delay:.2f}s" fill="freeze"/>')
     return (
-        f'  <g {anim}>\n'
+        f'  <g opacity="0">\n'
+        f'    {smil}\n'
         f'    <text x="{kx}" y="{y}" class="key">{key}</text>\n'
         f'    <text x="{vx}" y="{y}" class="val">{value}</text>\n'
         f'  </g>\n'
@@ -62,18 +67,16 @@ def row_svg(index: int, key: str, value: str, y: int, delay: float) -> str:
 def build_svg() -> str:
     lines: list[str] = []
 
+    # NOTE: No @import – GitHub's CSP blocks external resources in img SVGs.
+    # Animations use SMIL <animate> so they work on github.com.
     css = """
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-    .root { font-family: 'JetBrains Mono', monospace; font-size: 11px; }
-    .title { font-size: 13px; font-weight: 700; fill: #39d353; }
+    .root  { font-family: ui-monospace,'Cascadia Code','Source Code Pro',
+              Menlo,Consolas,'DejaVu Sans Mono',monospace; font-size: 11px; }
+    .title { font-size: 13px; font-weight: bold; fill: #39d353; }
     .div   { fill: #30363d; font-size: 10px; }
-    .key   { fill: #58a6ff; font-weight: 700; }
+    .key   { fill: #58a6ff; font-weight: bold; }
     .val   { fill: #e6edf3; }
-    @keyframes fadeSlide {
-      0%   { opacity: 0; transform: translateX(-6px); }
-      100% { opacity: 1; transform: translateX(0); }
-    }
   </style>
 """
     lines.append(
@@ -87,16 +90,26 @@ def build_svg() -> str:
 
     # Title bar
     ty = PADDING_Y + 14
-    t_anim = "" if STATIC else 'style="animation: fadeSlide 0.4s ease both 0s"'
+    if STATIC:
+        t_smil = ""
+        t_opacity = ""
+    else:
+        t_smil = '<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0s" fill="freeze"/>'
+        t_opacity = 'opacity="0"'
     lines.append(
-        f'  <text x="{PADDING_X}" y="{ty}" class="title" {t_anim}>{TITLE}</text>\n'
+        f'  <text x="{PADDING_X}" y="{ty}" class="title" {t_opacity}>{TITLE}{"" if STATIC else t_smil}</text>\n'
     )
 
     # Divider
     dy = ty + H_LINE
-    d_anim = "" if STATIC else 'style="animation: fadeSlide 0.4s ease both 0.1s"'
+    if STATIC:
+        d_smil = ""
+        d_opacity = ""
+    else:
+        d_smil = '<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.1s" fill="freeze"/>'
+        d_opacity = 'opacity="0"'
     lines.append(
-        f'  <text x="{PADDING_X}" y="{dy}" class="div" {d_anim}>{DIVIDER}</text>\n'
+        f'  <text x="{PADDING_X}" y="{dy}" class="div" {d_opacity}>{DIVIDER}{"" if STATIC else d_smil}</text>\n'
     )
 
     # Data rows

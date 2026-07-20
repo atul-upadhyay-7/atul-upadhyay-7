@@ -124,21 +124,17 @@ def make_svg(data: dict) -> str:
     parts: list[str] = []
 
     # ── CSS ─────────────────────────────────────────────────────────────────
-    css = f"""
+    # NOTE: No @import – GitHub's CSP blocks external URLs in img-embedded SVGs.
+    # Font: system monospace stack; animations: SMIL <animate> only.
+    css = """
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
-      .hm-root {{ font-family: 'JetBrains Mono', monospace; }}
-      .cell {{ rx: 2; ry: 2; }}
-      .label {{ font-size: 9px; fill: #8b949e; }}
-      .stat-val {{ font-size: 12px; fill: #e6edf3; font-weight: 700; }}
-      .stat-lbl {{ font-size: 9px;  fill: #8b949e; }}
-      .title    {{ font-size: 11px; fill: #58a6ff; letter-spacing: 1px; }}
-      .legend-lbl {{ font-size: 9px; fill: #8b949e; }}
-
-      @keyframes slideIn {{
-        0%   {{ opacity: 0; transform: translate(-4px, -4px); }}
-        100% {{ opacity: 1; transform: translate(0, 0); }}
-      }}
+      .hm-root { font-family: ui-monospace,'Cascadia Code','Source Code Pro',
+                  Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+      .label      { font-size: 9px;  fill: #8b949e; }
+      .stat-val   { font-size: 12px; fill: #e6edf3; font-weight: bold; }
+      .stat-lbl   { font-size: 9px;  fill: #8b949e; }
+      .title      { font-size: 11px; fill: #58a6ff; letter-spacing: 1px; }
+      .legend-lbl { font-size: 9px;  fill: #8b949e; }
     </style>
 """
     parts.append(f"""<svg xmlns="http://www.w3.org/2000/svg"
@@ -180,13 +176,20 @@ def make_svg(data: dict) -> str:
 
             diag  = ci + ri
             delay = round(diag * anim_delay_per_diag, 3)
-            anim  = (f'style="animation: slideIn 0.25s ease both {delay}s"'
-                     if cell is not None else "")
+
+            # SMIL animate: GitHub renders these in <img>-embedded SVGs
+            smil = (
+                f'<animate attributeName="opacity" from="0" to="1" '
+                f'dur="0.3s" begin="{delay}s" fill="freeze"/>'
+                if cell is not None else ""
+            )
+            opacity_attr = 'opacity="0"' if cell is not None else ""
 
             parts.append(
-                f'  <rect class="cell" x="{x}" y="{y}" '
-                f'width="{BOX}" height="{BOX}" fill="{color}" {anim}>'
+                f'  <rect x="{x}" y="{y}" rx="2" ry="2" '
+                f'width="{BOX}" height="{BOX}" fill="{color}" {opacity_attr}>'
                 + (f'<title>{tip}</title>' if tip else "")
+                + smil
                 + '</rect>\n'
             )
 

@@ -11,12 +11,17 @@
 <br><br>
 
 <!-- ─────────────────────────────────────────────────────────────────────
-     WHOAMI  ·  neofetch info card
+     WHOAMI  ·  ASCII portrait + neofetch info card
      ───────────────────────────────────────────────────────────────────── -->
 
 <h3><code>atul@github ~ $ whoami</code></h3>
 
-<img src="./info-card.svg" width="860" alt="Neofetch info card" />
+<table>
+  <tr>
+    <td valign="top" width="370"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top" width="490"><img src="./info-card.svg" width="490" alt="Neofetch info card" /></td>
+  </tr>
+</table>
 
 <br>
 

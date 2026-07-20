@@ -1,90 +1,115 @@
-![MasterHead](https://camo.githubusercontent.com/056e7476d3ce5dbab75be87c57ea62437aff5a218bccf8d0c4df0adaffc46e87/68747470733a2f2f696d616765732d7769786d702d6564333061383662386334636138383737373335393463322e7769786d702e636f6d2f662f63383363303034652d313337302d343735362d383865352d3430373164653739373038382f646764713862722d30396363376164362d613032312d343761352d623065302d3931376231326230663761372e6769663f746f6b656e3d65794a30655841694f694a4b563151694c434a68624763694f694a49557a49314e694a392e65794a7a645749694f694a31636d3436595842774f6a646c4d4751784f4467354f4449794e6a517a4e7a4e684e5759775a4451784e5756684d4751794e6d55774969776961584e7a496a6f6964584a754f6d467763446f335a54426b4d5467344f5467794d6a59304d7a637a5954566d4d4751304d54566c5954426b4d6a5a6c4d434973496d39696169493657317437496e4268644767694f694a634c325a634c324d344d324d774d44526c4c54457a4e7a41744e4463314e6930344f4755314c5451774e7a466b5a5463354e7a41344f4677765a47646b63546869636930774f574e6a4e32466b4e6931684d4449784c54513359545574596a426c4d4330354d5464694d544a694d475933595463755a326c6d496e3164585377695958566b496a7062496e5679626a707a5a584a3261574e6c4f6d5a70624755755a473933626d7876595751695858302e7471524d74452d6232516949326e6e65664e7853444d4a765a43635971466d71326363675f58667a716238)
+<div align="center">
 
-<h1 align="center">⚡ Hi, I'm Atul Upadhyay <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<h3 align="center">🚀 Full-Stack Developer | Cloud Enthusiast | Open Source Contributor</h3>
+<!-- ────────────────────────────────────────────────────────────
+     CONTRIBUTION HEATMAP  –  auto-refreshed daily via Actions
+     ──────────────────────────────────────────────────────────── -->
 
-<img align="right" alt="Coding" width="400" src="https://gifdb.com/images/high/animated-man-computer-coding-nae6mec378lsg1i3.gif" />
+<h3><code>atul@github ~ $ ./contributions.sh</code></h3>
 
----
+<img src="./contrib-heatmap.svg" width="860" alt="Atul's contribution heatmap" />
 
-![Animated Divider](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+<br><br>
 
-### 🎯 About Me
-<img align="right" src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="150">
+<!-- ────────────────────────────────────────────────────────────
+     WHOAMI  ·  ASCII portrait (optional) + neofetch info card
+     ──────────────────────────────────────────────────────────── -->
 
-- 🔭 Currently architecting **Cloud-Native Solutions**
-- 🌱 Mastering **Kubernetes & Advanced DevOps**
-- 👯 Seeking **Open Source Collaborations**
-- 💬 Let's discuss **Microservices & Serverless**
-- ⚡ Fun fact: **I create 3D game assets!** 🎮
+<h3><code>atul@github ~ $ whoami</code></h3>
 
----
+<table>
+  <tr>
+    <!-- ASCII portrait placeholder — replace src with atul-ascii.svg
+         once you've run scripts/make_ascii_svg.py with your photo -->
+    <td valign="top" width="360">
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1000&color=39D353&center=true&vCenter=true&width=340&height=340&lines=Full-Stack+Developer;Cloud+%26+DevOps+Engineer;Open+Source+Contributor;KubeEdge+Contributor;Building+the+future%2C+one+commit+at+a+time...;%F0%9F%9A%80+atul-upadhyay-7" alt="Typing animation" />
+    </td>
+    <td valign="top" width="500">
+      <img src="./info-card.svg" width="490" alt="Neofetch info card" />
+    </td>
+  </tr>
+</table>
 
-### 📬 Connect With Me
-<p align="center">
+<br>
+
+<!-- ────────────────────────────────────────────────────────────
+     CONNECT
+     ──────────────────────────────────────────────────────────── -->
+
+<h3><code>atul@github ~ $ cat ./connect.txt</code></h3>
+
+<p>
   <a href="mailto:atulupadhyay192@gmail.com">
-    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> 
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://www.linkedin.com/in/atulupadhyay192/">
-    <img src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" width="40">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://leetcode.com/atul_upadhyay/">
-    <img src="https://media.giphy.com/media/3oKIPk5XyCQ4MURVPy/giphy.gif" width="40">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"/>
+  </a>
+  <a href="https://atulupadhyay.in">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
 </p>
 
----
+<br>
 
-### 🛠️ Tech Stack
-#### ☁️ Cloud & DevOps
+<!-- ────────────────────────────────────────────────────────────
+     TECH STACK
+     ──────────────────────────────────────────────────────────── -->
+
+<h3><code>atul@github ~ $ neofetch --stack</code></h3>
+
 <p>
-  <img src="https://media.giphy.com/media/XAW1Z5xQUBf7O6Ntow/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/rsUGLKwgSvSxmq1VrZ/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="50">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <!-- Frontend -->
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+  <!-- Backend -->
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <!-- Cloud & DevOps -->
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" alt="GCP"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
+  <!-- DB -->
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
 </p>
 
-#### 💻 Languages
+<br>
+
+<!-- ────────────────────────────────────────────────────────────
+     GITHUB STATS  (kept as lightweight backup)
+     ──────────────────────────────────────────────────────────── -->
+
+<h3><code>atul@github ~ $ git stats</code></h3>
+
 <p>
-  <img src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mTP/giphy.gif" width="50">
+  <img src="https://github-readme-stats.vercel.app/api?username=atul-upadhyay-7&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39d353&icon_color=58a6ff&text_color=e6edf3" width="420" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atul-upadhyay-7&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=39d353&text_color=e6edf3" width="360" alt="Top languages"/>
 </p>
 
-#### 🌐 Frontend
-<p>
-  <img src="https://media.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" width="50">
-</p>
+<br>
 
----
+<!-- ────────────────────────────────────────────────────────────
+     VISITOR COUNTER
+     ──────────────────────────────────────────────────────────── -->
 
-### 📈 GitHub Analytics
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=atul-upadhyay-7&theme=react-dark&hide_border=true&area=true">
+<img src="https://komarev.com/ghpvc/?username=atul-upadhyay-7&color=39d353&style=flat-square&label=profile+views" alt="Profile views"/>
+
+<br><br>
+
+<sub>🤖 Heatmap auto-refreshes daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> · built with self-hosted Python scripts, no third-party token required</sub>
+
 </div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=atul-upadhyay-7&show_icons=true&theme=radical&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atul-upadhyay-7&layout=compact&theme=radical&hide_border=true">
-</div>
-
-![Snake Animation](https://github.com/atul-upadhyay-7/atul-upadhyay-7/blob/output/github-contribution-grid-snake.svg)
-
----
-
-### 🔥 Recent Activity
-<!--START_SECTION:activity-->
-1. 🚀 Pushed 5 commits to [Cloud-Native Project](https://github.com/atul-upadhyay-7/cloud-project)
-2. 🛠️ Fixed bug in React component
-3. 📚 Updated Python API documentation
-<!--END_SECTION:activity-->
-
----
-
-<p align="center"> 
-  <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="20%">
-  <br>
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/atul-upadhyay-7/count.svg">
-</p>

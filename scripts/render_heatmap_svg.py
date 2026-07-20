@@ -33,7 +33,7 @@ COLS  = 53   # weeks
 ROWS  = 7    # days per week (Mon-Sun)
 
 LABEL_LEFT  = 28   # space for day labels (Mon/Wed/Fri)
-LABEL_TOP   = 20   # space for month labels
+LABEL_TOP   = 36   # space for month labels
 
 TOTAL_W = LABEL_LEFT + COLS * (BOX + GAP) + 20
 TOTAL_H = LABEL_TOP  + ROWS * (BOX + GAP) + 60  # extra for footer
@@ -146,7 +146,7 @@ def make_svg(data: dict) -> str:
 """)
 
     # ── Title ────────────────────────────────────────────────────────────────
-    parts.append(f'  <text x="{LABEL_LEFT}" y="13" class="title">'
+    parts.append(f'  <text x="{LABEL_LEFT}" y="20" class="title">'
                  f'atul@github ~ $ ./contributions.sh</text>\n')
 
     # ── Month labels ─────────────────────────────────────────────────────────

@@ -400,7 +400,7 @@
   <rect x="704" y="89" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>4 contributions on 2026-08-20</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.707s" fill="freeze"/></rect>
   <rect x="704" y="102" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>1 contribution on 2026-08-21</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.738s" fill="freeze"/></rect>
   <rect x="704" y="115" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>3 contributions on 2026-08-22</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.769s" fill="freeze"/></rect>
-  <rect x="704" y="128" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-08-23</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8s" fill="freeze"/></rect>
+  <rect x="704" y="128" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>23 contributions on 2026-08-23</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8s" fill="freeze"/></rect>
   <text x="605" y="161" class="legend-lbl">Less</text>
   <rect class="cell" x="609" y="151" width="11" height="11" fill="#161b22"/>
   <rect class="cell" x="622" y="151" width="11" height="11" fill="#0e4429"/>
@@ -409,7 +409,7 @@
   <rect class="cell" x="661" y="151" width="11" height="11" fill="#39d353"/>
   <rect class="cell" x="674" y="151" width="11" height="11" fill="#69f0a0"/>
   <text x="689" y="161" class="legend-lbl">More</text>
-  <text x="92" y="180" text-anchor="middle" class="stat-val">2,657</text>
+  <text x="92" y="180" text-anchor="middle" class="stat-val">2,680</text>
   <text x="92" y="193" text-anchor="middle" class="stat-lbl">contributions</text>
   <text x="276" y="180" text-anchor="middle" class="stat-val">0d</text>
   <text x="276" y="193" text-anchor="middle" class="stat-lbl">current streak</text>

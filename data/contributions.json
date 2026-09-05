@@ -1,10 +1,10 @@
 {
   "username": "atul-upadhyay-7",
-  "fetched_at": "2026-09-04T11:26:38.028057Z",
+  "fetched_at": "2026-09-05T10:42:42.505071Z",
   "stats": {
-    "total": 2692,
+    "total": 2710,
     "current_streak": 0,
-    "longest_streak": 46,
+    "longest_streak": 47,
     "best_day": {
       "date": "2026-05-23",
       "level": 4,
@@ -24,7 +24,7 @@
       "2026-06": 1002,
       "2026-07": 397,
       "2026-08": 145,
-      "2026-09": 5
+      "2026-09": 23
     }
   },
   "days": [
@@ -1875,6 +1875,11 @@
     },
     {
       "date": "2026-09-04",
+      "level": 1,
+      "count": 18
+    },
+    {
+      "date": "2026-09-05",
       "level": 0,
       "count": 0
     }

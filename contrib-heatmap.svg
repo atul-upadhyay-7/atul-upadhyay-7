@@ -217,7 +217,7 @@
   <rect x="366" y="76" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-01</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.869s" fill="freeze"/></rect>
   <rect x="366" y="89" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-02</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9s" fill="freeze"/></rect>
   <rect x="366" y="102" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-03</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.931s" fill="freeze"/></rect>
-  <rect x="366" y="115" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>1 contribution on 2026-04-04</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.962s" fill="freeze"/></rect>
+  <rect x="366" y="115" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-04</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.962s" fill="freeze"/></rect>
   <rect x="366" y="128" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-05</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.993s" fill="freeze"/></rect>
   <rect x="379" y="50" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-06</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.838s" fill="freeze"/></rect>
   <rect x="379" y="63" rx="2" ry="2" width="11" height="11" fill="#161b22" opacity="0"><title>0 contributions on 2026-04-07</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.869s" fill="freeze"/></rect>
@@ -400,7 +400,7 @@
   <rect x="704" y="89" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>1 contribution on 2026-10-01</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.707s" fill="freeze"/></rect>
   <rect x="704" y="102" rx="2" ry="2" width="11" height="11" fill="#006d32" opacity="0"><title>42 contributions on 2026-10-02</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.738s" fill="freeze"/></rect>
   <rect x="704" y="115" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>7 contributions on 2026-10-03</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.769s" fill="freeze"/></rect>
-  <rect x="704" y="128" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>11 contributions on 2026-10-04</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8s" fill="freeze"/></rect>
+  <rect x="704" y="128" rx="2" ry="2" width="11" height="11" fill="#0e4429" opacity="0"><title>12 contributions on 2026-10-04</title><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8s" fill="freeze"/></rect>
   <text x="605" y="161" class="legend-lbl">Less</text>
   <rect class="cell" x="609" y="151" width="11" height="11" fill="#161b22"/>
   <rect class="cell" x="622" y="151" width="11" height="11" fill="#0e4429"/>
@@ -409,11 +409,11 @@
   <rect class="cell" x="661" y="151" width="11" height="11" fill="#39d353"/>
   <rect class="cell" x="674" y="151" width="11" height="11" fill="#69f0a0"/>
   <text x="689" y="161" class="legend-lbl">More</text>
-  <text x="92" y="180" text-anchor="middle" class="stat-val">2,763</text>
+  <text x="92" y="180" text-anchor="middle" class="stat-val">2,770</text>
   <text x="92" y="193" text-anchor="middle" class="stat-lbl">contributions</text>
-  <text x="276" y="180" text-anchor="middle" class="stat-val">77d</text>
+  <text x="276" y="180" text-anchor="middle" class="stat-val">78d</text>
   <text x="276" y="193" text-anchor="middle" class="stat-lbl">current streak</text>
-  <text x="460" y="180" text-anchor="middle" class="stat-val">77d</text>
+  <text x="460" y="180" text-anchor="middle" class="stat-val">78d</text>
   <text x="460" y="193" text-anchor="middle" class="stat-lbl">longest streak</text>
   <text x="644" y="180" text-anchor="middle" class="stat-val">330</text>
   <text x="644" y="193" text-anchor="middle" class="stat-lbl">best day (2026-05-23)</text>

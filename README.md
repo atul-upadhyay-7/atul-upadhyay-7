@@ -1,11 +1,3 @@
-# Atul Upadhyay
-
-I'm Atul, a third-year B.Tech CSE student at Parul University in Vadodara, India. I'm a full stack developer and AI/ML builder, and I mostly work with Next.js, React, TypeScript, Node.js and Python (FastAPI).
-
-I contribute to open source (GSSoC 2026) and I'm looking for a software engineering internship.
-
-Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadhyay192](https://www.linkedin.com/in/atulupadhyay192/) | X: [@AtulUpadhyay966](https://x.com/AtulUpadhyay966) | LeetCode: [atulupadhyay192](https://leetcode.com/u/atulupadhyay192/) | Email: atulupadhyay192@gmail.com
-
 <div align="center">
 
 <!-- ─────────────────────────────────────────────────────────────────────
@@ -17,6 +9,21 @@ Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadh
 <img src="./contrib-heatmap.svg" width="860" alt="Atul's contribution heatmap — 2421 contributions in the last year" />
 
 <br><br>
+
+<!-- ─────────────────────────────────────────────────────────────────────
+     WHOAMI  ·  ASCII portrait + neofetch info card
+     ───────────────────────────────────────────────────────────────────── -->
+
+<h3><code>atul@github ~ $ whoami</code></h3>
+
+<table>
+  <tr>
+    <td valign="top" width="370"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top" width="490"><img src="./info-card.svg" width="490" alt="Neofetch info card" /></td>
+  </tr>
+</table>
+
+<br>
 
 <!-- ─────────────────────────────────────────────────────────────────────
      CONNECT
@@ -89,20 +96,13 @@ Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadh
 
 <br><br>
 
-<!-- ─────────────────────────────────────────────────────────────────────
-     WHOAMI  ·  ASCII portrait + neofetch info card
-     ───────────────────────────────────────────────────────────────────── -->
+# Atul Upadhyay
 
-<h3><code>atul@github ~ $ whoami</code></h3>
+I'm Atul, a third-year B.Tech CSE student at Parul University in Vadodara, India. I'm a full stack developer and AI/ML builder, and I mostly work with Next.js, React, TypeScript, Node.js and Python (FastAPI).
 
-<table>
-  <tr>
-    <td valign="top" width="370"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
-    <td valign="top" width="490"><img src="./info-card.svg" width="490" alt="Neofetch info card" /></td>
-  </tr>
-</table>
+I contribute to open source (GSSoC 2026) and I'm looking for a software engineering internship.
 
-<br>
+Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadhyay192](https://www.linkedin.com/in/atulupadhyay192/) | X: [@AtulUpadhyay966](https://x.com/AtulUpadhyay966) | LeetCode: [atulupadhyay192](https://leetcode.com/u/atulupadhyay192/) | Email: atulupadhyay192@gmail.com
 
 <sub>All SVGs are self-hosted and auto-refresh daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> — no third-party servers, no token required</sub>
 

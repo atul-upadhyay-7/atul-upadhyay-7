@@ -102,7 +102,7 @@ I'm Atul, a third-year B.Tech CSE student at Parul University in Vadodara, India
 
 I contribute to open source (GSSoC 2026) and I'm looking for a software engineering internship.
 
-Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadhyay192](https://www.linkedin.com/in/atulupadhyay192/) | LeetCode: [atulupadhyay192](https://leetcode.com/u/atulupadhyay192/) | Email: atulupadhyay192@gmail.com
+Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadhyay192](https://www.linkedin.com/in/atulupadhyay192/) | X: [@Atul_Upadhyay19](https://x.com/Atul_Upadhyay19) | LeetCode: [atulupadhyay192](https://leetcode.com/u/atulupadhyay192/) | Email: atulupadhyay192@gmail.com
 
 <sub>All SVGs are self-hosted and auto-refresh daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> — no third-party servers, no token required</sub>
 

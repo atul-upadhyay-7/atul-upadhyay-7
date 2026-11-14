@@ -19,21 +19,6 @@ Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadh
 <br><br>
 
 <!-- ─────────────────────────────────────────────────────────────────────
-     WHOAMI  ·  ASCII portrait + neofetch info card
-     ───────────────────────────────────────────────────────────────────── -->
-
-<h3><code>atul@github ~ $ whoami</code></h3>
-
-<table>
-  <tr>
-    <td valign="top" width="370"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
-    <td valign="top" width="490"><img src="./info-card.svg" width="490" alt="Neofetch info card" /></td>
-  </tr>
-</table>
-
-<br>
-
-<!-- ─────────────────────────────────────────────────────────────────────
      CONNECT
      ───────────────────────────────────────────────────────────────────── -->
 
@@ -103,6 +88,21 @@ Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadh
 <img src="https://komarev.com/ghpvc/?username=atul-upadhyay-7&color=39d353&style=flat-square&label=profile+views" alt="Profile views"/>
 
 <br><br>
+
+<!-- ─────────────────────────────────────────────────────────────────────
+     WHOAMI  ·  ASCII portrait + neofetch info card
+     ───────────────────────────────────────────────────────────────────── -->
+
+<h3><code>atul@github ~ $ whoami</code></h3>
+
+<table>
+  <tr>
+    <td valign="top" width="370"><img src="./avi-ascii.svg" width="370" alt="ASCII Portrait" /></td>
+    <td valign="top" width="490"><img src="./info-card.svg" width="490" alt="Neofetch info card" /></td>
+  </tr>
+</table>
+
+<br>
 
 <sub>All SVGs are self-hosted and auto-refresh daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> — no third-party servers, no token required</sub>
 

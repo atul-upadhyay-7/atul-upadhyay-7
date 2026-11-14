@@ -1,3 +1,11 @@
+# Atul Upadhyay
+
+I'm Atul, a third-year B.Tech CSE student at Parul University in Vadodara, India. I'm a full stack developer and AI/ML builder, and I mostly work with Next.js, React, TypeScript, Node.js and Python (FastAPI).
+
+I contribute to open source (GSSoC 2026) and I'm looking for a software engineering internship.
+
+Portfolio: [atulupadhyay.in](https://www.atulupadhyay.in) | LinkedIn: [atulupadhyay192](https://www.linkedin.com/in/atulupadhyay192/) | X: [@AtulUpadhyay966](https://x.com/AtulUpadhyay966) | LeetCode: [atulupadhyay192](https://leetcode.com/u/atulupadhyay192/) | Email: atulupadhyay192@gmail.com
+
 <div align="center">
 
 <!-- ─────────────────────────────────────────────────────────────────────
@@ -38,7 +46,7 @@
   <a href="https://www.linkedin.com/in/atulupadhyay192/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://leetcode.com/atul_upadhyay/">
+  <a href="https://leetcode.com/u/atulupadhyay192/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"/>
   </a>
   <a href="https://atulupadhyay.in">
@@ -96,6 +104,6 @@
 
 <br><br>
 
-<sub>🤖 All SVGs are self-hosted and auto-refresh daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> — no third-party servers, no token required</sub>
+<sub>All SVGs are self-hosted and auto-refresh daily via <a href="./.github/workflows/update-profile-art.yml">GitHub Actions</a> — no third-party servers, no token required</sub>
 
 </div>

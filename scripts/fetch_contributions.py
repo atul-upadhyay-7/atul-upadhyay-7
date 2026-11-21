@@ -10,7 +10,7 @@ Output: data/contributions.json
 import json
 import re
 import os
-from datetime import datetime, date, timedelta
+from datetime import datetime, timezone, date, timedelta
 from pathlib import Path
 
 import requests
@@ -103,7 +103,7 @@ def main():
 
     out = {
         "username": USERNAME,
-        "fetched_at": datetime.utcnow().isoformat() + "Z",
+        "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "stats": stats,
         "days": days,
     }

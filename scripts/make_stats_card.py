@@ -10,7 +10,7 @@ Output: stats-card.svg
 import json
 import os
 import math
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -26,6 +26,8 @@ HEADERS  = {
     "Accept": "application/vnd.github+json",
     "User-Agent": "profile-stats-card/1.0",
 }
+if os.getenv("GITHUB_TOKEN"):
+    HEADERS["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
 
 # ── dimensions ──────────────────────────────────────────────────────────────
 W, H = 860, 160
@@ -148,7 +150,7 @@ def make_svg(user: dict, repos: list, contributions: int) -> str:
         )
         lx += 12 + len(lang) * 6 + 40
 
-    updated = datetime.utcnow().strftime("%Y-%m-%d")
+    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
      width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -182,8 +184,12 @@ def make_svg(user: dict, repos: list, contributions: int) -> str:
 
 def main():
     print(f"Fetching GitHub stats for {USERNAME}…")
-    user  = fetch_user()
-    repos = fetch_repos()
+    try:
+        user = fetch_user()
+        repos = fetch_repos()
+    except requests.RequestException as exc:
+        print(f"  ! GitHub API unavailable; keeping existing stats-card.svg: {exc}")
+        return
     contributions = load_contributions()
 
     print(f"  → {user.get('public_repos')} repos, "

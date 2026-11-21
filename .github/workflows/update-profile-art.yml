@@ -36,6 +36,8 @@ jobs:
 
       - name: Regenerate self-hosted stats card
         run: python scripts/make_stats_card.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push updated assets
         uses: stefanzweifel/git-auto-commit-action@v5

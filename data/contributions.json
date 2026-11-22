@@ -1,10 +1,10 @@
 {
   "username": "atul-upadhyay-7",
-  "fetched_at": "2026-11-20T15:35:29.651661Z",
+  "fetched_at": "2026-11-22T14:42:44.485904Z",
   "stats": {
-    "total": 3206,
-    "current_streak": 124,
-    "longest_streak": 124,
+    "total": 3210,
+    "current_streak": 126,
+    "longest_streak": 126,
     "best_day": {
       "date": "2026-05-23",
       "level": 4,
@@ -23,45 +23,10 @@
       "2026-08": 144,
       "2026-09": 57,
       "2026-10": 291,
-      "2026-11": 206
+      "2026-11": 210
     }
   },
   "days": [
-    {
-      "date": "2025-11-16",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-17",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-18",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-19",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-20",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-21",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-11-22",
-      "level": 0,
-      "count": 0
-    },
     {
       "date": "2025-11-23",
       "level": 0,
@@ -1865,7 +1830,7 @@
     {
       "date": "2026-11-18",
       "level": 1,
-      "count": 6
+      "count": 5
     },
     {
       "date": "2026-11-19",
@@ -1876,6 +1841,16 @@
       "date": "2026-11-20",
       "level": 1,
       "count": 3
+    },
+    {
+      "date": "2026-11-21",
+      "level": 1,
+      "count": 3
+    },
+    {
+      "date": "2026-11-22",
+      "level": 1,
+      "count": 2
     }
   ]
 }

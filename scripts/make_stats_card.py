@@ -26,6 +26,8 @@ HEADERS  = {
     "Accept": "application/vnd.github+json",
     "User-Agent": "profile-stats-card/1.0",
 }
+if os.environ.get("GITHUB_TOKEN"):
+    HEADERS["Authorization"] = "Bearer " + os.getenv("GITHUB_TOKEN", "")
 
 # ── dimensions ──────────────────────────────────────────────────────────────
 W, H = 860, 160
